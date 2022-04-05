@@ -1,7 +1,7 @@
 {
   "name": "simple-parse-github-url",
   "description": "Simplified version of https://github.com/jonschlinkert/parse-github-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Ivan Terpugov",
   "contributors": [],
   "license": "MIT",
