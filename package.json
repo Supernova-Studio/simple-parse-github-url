@@ -1,0 +1,40 @@
+{
+  "name": "simple-parse-github-url",
+  "description": "Simplified version of https://github.com/jonschlinkert/parse-github-url",
+  "version": "1.0.1",
+  "author": "Ivan Terpugov",
+  "contributors": [],
+  "license": "MIT",
+  "files": [
+    "cli.js",
+    "index.js",
+    "index.d.ts"
+  ],
+  "types": "./index.d.ts",
+  "main": "index.js",
+  "bin": {
+    "simple-parse-github-url": "./cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "branch",
+    "git",
+    "github",
+    "match",
+    "parse",
+    "regex",
+    "repo",
+    "test",
+    "url",
+    "user",
+    "username"
+  ]
+}
