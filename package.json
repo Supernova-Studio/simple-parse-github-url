@@ -1,6 +1,5 @@
 {
   "name": "@supernova-studio/simple-parse-github-url",
-  "private": true,
   "description": "Simplified version of https://github.com/jonschlinkert/parse-github-url",
   "version": "1.0.0",
   "author": "Ivan Terpugov",
