@@ -1,13 +1,15 @@
-type GithubParseResult = URL & {
+type GitParseResult = URL & {
   owner: string;
   name: string;
-  branchAndDirectory?: string[];
+  branchAndDirectory: string[];
 };
 
-declare function simpleGithubParse(str: string): GithubParseResult;
+declare function simpleGithubParse(str: string): GitParseResult;
+declare function simpleGitParse(str: string): GitParseResult;
 
-declare namespace simpleGithubParse {
-  export type SimpleGithubParseResult = GithubParseResult;
+declare namespace simpleGitParse {
+  export type SimpleGithubParseResult = GitParseResult;
+  export type SimpleGitParseResult = GitParseResult;
 }
 
-export = simpleGithubParse;
+export = simpleGitParse;

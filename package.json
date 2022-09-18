@@ -22,6 +22,8 @@
     "branch",
     "git",
     "github",
+    "gitlab",
+    "bitbucket",
     "match",
     "parse",
     "regex",
